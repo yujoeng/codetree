@@ -1,9 +1,11 @@
-a = int(input())
-b = int(input())
+a = float(input())
+b = float(input())
 
-if a, b >= 1.0:
+# arr =list(map(int, input().split()))
+
+if a >= 1.0 and b >= 1.0 :
     print('High')
-elif a, b >= 0.5:
+elif a >= 0.5 and b >= 0.5:
     print('Middle')
 else:
     print('Low')
