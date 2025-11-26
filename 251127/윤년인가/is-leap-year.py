@@ -14,7 +14,7 @@ else:
     elif y % 100 == 0 and y % 400 != 0 :
         print('false')
 '''
-    
+'''   
 # 4로 나누어 떨어지지 않는 해는 평년
 if y % 4 != 0:
     print('false')
@@ -23,3 +23,17 @@ else:
         print('true')
     elif y % 100 == 0 and y % 400 != 0 :
         print('false')
+'''
+
+if y % 4 == 0:
+    if y % 100 == 0:
+        if y % 400 == 0:
+            print('true')
+        else:
+            print('false')
+    else:
+        print('true')
+        
+else:
+    print('false')
+    
