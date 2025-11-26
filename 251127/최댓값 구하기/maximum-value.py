@@ -1,7 +1,8 @@
 a, b, c = map(int, input().split())
 
-number = (a, b, c)
-
-max_number = max(number)
-
-print(max_number)
+if a > b and a > c:
+    print(a)
+elif b > a and b > c:
+    print(b)
+else:
+    print(c)
